@@ -239,6 +239,30 @@ address { font-style: normal; }
   transform: translateY(-1px);
 }
 
+/* TOUR VIRTUAL — para borrar: elimina desde aquí */
+.btn-tour-virtual {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, var(--terracotta), var(--terracotta-l));
+  color: var(--ivory-light);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.875rem 2rem;
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), opacity var(--transition-fast);
+}
+.btn-tour-virtual:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(194, 107, 74, 0.4);
+  opacity: 0.92;
+}
+/* TOUR VIRTUAL — hasta aquí */
+
 .btn-large {
   font-size: 0.9375rem;
   padding: 1.125rem 2.75rem;
